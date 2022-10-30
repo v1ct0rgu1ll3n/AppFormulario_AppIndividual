@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".FormActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="127dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="420dp"
+        android:text="Género:"
+        android:textColor="#FBFBFB"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtdireccion"
+        android:layout_width="242dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="345dp"
+        android:background="#1B0404"
+        android:ems="10"
+        android:hint="Escribe tu dirección"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:shadowColor="#E43D3D"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FBFBFB"
+        android:textColorLink="#E43D3D"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="127dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        android:text="Dirección:"
+        android:textColor="#FBFBFB"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txttelefono"
+        android:layout_width="242dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="280dp"
+        android:background="#1B0404"
+        android:ems="10"
+        android:hint="Escribe tu télefono"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:shadowColor="#E43D3D"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FDFDFD"
+        android:textColorLink="#E43D3D"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="127dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="285dp"
+        android:text="Teléfono:"
+        android:textColor="#FBFBFB"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="242dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="85dp"
+        android:background="#1B0404"
+        android:ems="10"
+        android:hint="Escribe tu nombre"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:shadowColor="#E43D3D"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#E43D3D"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="127dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:text="Nombre/s:"
+        android:textColor="#FBFBFB"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="242dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="215dp"
+        android:background="#1B0404"
+        android:ems="10"
+        android:hint="Escribe tu Email"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:shadowColor="#E43D3D"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#E43D3D"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="127dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="220dp"
+        android:text="Email:"
+        android:textColor="#FBFBFB"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtapellido"
+        android:layout_width="242dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="150dp"
+        android:background="#1B0404"
+        android:ems="10"
+        android:hint="Escribe tu apellido"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:shadowColor="#E43D3D"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FBFBFB"
+        android:textColorLink="#E43D3D"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="127dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="155dp"
+        android:text="Apellido/s:"
+        android:textColor="#FBFBFB"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnguardar"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="500dp"
+        android:text="Guardar Datos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="389dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Formulario de registro:"
+        android:textColor="#F44040"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="415dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbhombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hombre"
+            android:textColor="#FFFEFE" />
+
+        <RadioButton
+            android:id="@+id/rbmujer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mujer"
+            android:textColor="#FDFDFD" />
+
+        <RadioButton
+            android:id="@+id/rbotro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Otro"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
